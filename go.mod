@@ -1,4 +1,4 @@
-module github.com/fwidjaya/demo-go-grpc-server
+module github.com/fwidjaya20/demo-go-grpc-server
 
 go 1.12
 
