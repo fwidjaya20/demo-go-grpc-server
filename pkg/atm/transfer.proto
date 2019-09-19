@@ -1,0 +1,25 @@
+syntax = "proto3";
+package atm;
+
+import "google/protobuf/Empty.proto";
+
+message Transfer {
+    string sender = 1;
+    string recipient = 2;
+    float amount = 3;
+}
+
+message TransferHistory {
+    repeated Transfer list = 1;
+}
+
+message TransferResponse {
+    string sender = 1;
+    string recipient = 2;
+    float amount = 3;
+}
+
+service Transfers {
+    rpc Send(Transfer) returns (TransferResponse) {}
+    rpc Receipt(google.protobuf.Empty) returns (TransferHistory) {}
+}
