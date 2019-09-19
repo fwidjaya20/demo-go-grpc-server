@@ -1,6 +1,6 @@
 package config
 
-import "github.com/fwidjaya/demo-go-grpc-server/internal/models"
+import "github.com/fwidjaya20/demo-go-grpc-server/internal/models"
 
 var LocalStorage = make([]*models.Transfer, 0)
 

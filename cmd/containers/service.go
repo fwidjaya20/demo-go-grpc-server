@@ -1,6 +1,6 @@
 package containers
 
-import "github.com/fwidjaya/demo-go-grpc-server/internal"
+import "github.com/fwidjaya20/demo-go-grpc-server/internal"
 
 type ServiceContainer struct {
 	TransferService internal.ServiceInterface

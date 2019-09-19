@@ -2,8 +2,8 @@ package http
 
 import (
 	"encoding/json"
-	"github.com/fwidjaya/demo-go-grpc-server/internal"
-	"github.com/fwidjaya/demo-go-grpc-server/internal/models"
+	"github.com/fwidjaya20/demo-go-grpc-server/internal"
+	"github.com/fwidjaya20/demo-go-grpc-server/internal/models"
 	"net/http"
 )
 

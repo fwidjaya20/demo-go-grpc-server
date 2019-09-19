@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/fwidjaya/demo-go-grpc-server/cmd/containers"
-	"github.com/fwidjaya/demo-go-grpc-server/cmd/grpc"
-	"github.com/fwidjaya/demo-go-grpc-server/cmd/http"
+	"github.com/fwidjaya20/demo-go-grpc-server/cmd/containers"
+	"github.com/fwidjaya20/demo-go-grpc-server/cmd/grpc"
+	"github.com/fwidjaya20/demo-go-grpc-server/cmd/http"
 	"runtime"
 )
 

@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/fwidjaya/demo-go-grpc-server/config"
-	"github.com/fwidjaya/demo-go-grpc-server/internal/models"
+	"github.com/fwidjaya20/demo-go-grpc-server/config"
+	"github.com/fwidjaya20/demo-go-grpc-server/internal/models"
 )
 
 type ServiceInterface interface {

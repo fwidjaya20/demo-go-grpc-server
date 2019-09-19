@@ -2,13 +2,13 @@ package grpc
 
 import (
 	"context"
-	"github.com/fwidjaya/demo-go-grpc-server/internal"
-	"github.com/fwidjaya/demo-go-grpc-server/internal/models"
+	"github.com/fwidjaya20/demo-go-grpc-server/internal"
+	"github.com/fwidjaya20/demo-go-grpc-server/internal/models"
 	"log"
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	pb "github.com/fwidjaya/demo-go-grpc-server/pkg/atm"
+	pb "github.com/fwidjaya20/demo-go-grpc-server/pkg/atm"
 
 )
 

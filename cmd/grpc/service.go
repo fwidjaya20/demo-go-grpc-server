@@ -2,10 +2,10 @@ package grpc
 
 import (
 	"fmt"
-	"github.com/fwidjaya/demo-go-grpc-server/cmd/containers"
-	"github.com/fwidjaya/demo-go-grpc-server/config"
-	grpcTransport "github.com/fwidjaya/demo-go-grpc-server/internal/transports/grpc"
-	pb "github.com/fwidjaya/demo-go-grpc-server/pkg/atm"
+	"github.com/fwidjaya20/demo-go-grpc-server/cmd/containers"
+	"github.com/fwidjaya20/demo-go-grpc-server/config"
+	grpcTransport "github.com/fwidjaya20/demo-go-grpc-server/internal/transports/grpc"
+	pb "github.com/fwidjaya20/demo-go-grpc-server/pkg/atm"
 	"google.golang.org/grpc"
 	"log"
 	"net"

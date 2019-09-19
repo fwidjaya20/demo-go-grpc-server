@@ -2,12 +2,12 @@ package http
 
 import (
 	"fmt"
-	"github.com/fwidjaya/demo-go-grpc-server/config"
+	"github.com/fwidjaya20/demo-go-grpc-server/config"
 	"log"
 	netHttp "net/http"
 
-	"github.com/fwidjaya/demo-go-grpc-server/cmd/containers"
-	"github.com/fwidjaya/demo-go-grpc-server/internal/transports/http"
+	"github.com/fwidjaya20/demo-go-grpc-server/cmd/containers"
+	"github.com/fwidjaya20/demo-go-grpc-server/internal/transports/http"
 	"github.com/go-chi/chi"
 )
 
